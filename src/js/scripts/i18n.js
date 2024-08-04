@@ -6,7 +6,7 @@ var languageCode = userLanguage.toLowerCase();
 loadTranslations(languageCode);
 
 function loadTranslations(language) {
-    $.getJSON('./src/assets/i18n/' + language + '.json')
+    $.getJSON('https://sofia.aja.com/src/assets/i18n/' + language + '.json')
         .done(function(translations) {
             $('[data-i18n]').each(function() {
                 var key = $(this).data('i18n');
