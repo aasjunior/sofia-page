@@ -1,3 +1,42 @@
+@media screen and (max-width: 1700px) {
+    .head_star{
+        top: 150px;
+        left: 20px;
+    }
+    
+    .head_sofia{
+        top: 100px;
+        right: -300px;
+    }
+    
+}
+
+@media screen and (max-width: 1500px) {
+    .head_star{
+        top: 150px;
+        left: -10px;
+    }
+    
+    .head_sofia{
+        top: 210px;
+        right: -140px;
+        width: 600px;
+    }
+
+    .header-title{
+        font-size: 80px;
+    }
+
+    .header-description{
+        font-size: 18px;
+    }
+
+    .head_text-box{
+        width: 650px;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
     #nav-list{
         display: none;

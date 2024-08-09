@@ -1,14 +1,51 @@
 {
+    "pt-BR": "Portuguese-BR",
+    "en-US": "English",
     "home": "Home",
     "asd": "Autism",
     "proposal": "Proposal",
     "research": "Research",
     "about": "About Us",
-    "future": "Future",
+    "future": "Next Steps",
 
-    "header-title": "Hello, I’m Sofia!",
-    "header-description": "Did you know that it’s possible to diagnose Autism Spectrum Disorder (ASD) as early as 18 months of age? However, the average age at which children receive a diagnosis is above 4 years old, and it’s even later for Black children, those from low-income families, and those in rural areas.",
+    "header-title": "HELLO, I’M SOFIA!",
+    "header-description": "Did you know that it is possible to diagnose Autism Spectrum Disorder (ASD) at 18 months of age? However, the average age at which a child receives the diagnosis is over 4 years, and it is even later for Black children, those from low-income families, and those living in rural areas.",
 
-    "learn-more": "Learn more",
-    "watch-pitch": "Watch pitch"
+    "learn-more": "See more",
+    "watch-pitch": "Watch pitch",
+
+    "about-title": "ABOUT US",
+    "about-description": "We are the AJA Group, consisting of Aline, Junior, and Amanda, students from Fatec Registro. Our goal is to contribute to SDG 3 – 'Good Health and Well-being.' With the rising rates of autism spectrum disorders, we decided to focus our studies on developing an innovative solution for this challenge during the Multiplatform Software Development course.",
+
+    "proposal-title": "HOW IT <br> WORKS",
+    "identification-title": "Identification of ASD <br> Signs",
+    "identification-description": "It all starts with parents or guardians identifying the signs of ASD in the child. Then, they seek out a healthcare specialist.",
+
+    "importance-title": "The Importance of <br> Professional Evaluation",
+    "importance-description": "A qualified healthcare professional will use SOFIA to assist in the pre-diagnosis, ensuring greater effectiveness and accessibility.",
+
+    "innovation-title": "Innovation with <br> Artificial Intelligence",
+    "innovation-description": "Our app uses AI to analyze the completion of screening protocols and the child's demographic data to provide the result.",
+
+    "research-title": "OUR DATA",
+    "research-item1": "More than <em>60%</em> of children are diagnosed after the <em>age of 4</em>.",
+    "research-item2": "<em>37%</em> of these children see more than 5 <em>doctors</em> before getting a final diagnosis.",
+    "research-item3": "The main signs of ASD are <em>stereotypies</em> and <em>communication</em> disorders.",
+    "research-item4": "<em>None of the doctors</em> interviewed used any software to aid in the diagnosis.",
+    "research-item5": "However, all healthcare specialists <em>were familiar</em> with some virtual tools.",
+    "research-item6": "<em>100%</em> of the respondents used their personal <em>phones</em> to assist during consultations.",
+
+    "the-vale": "THE VALE DO RIBEIRA",
+    "vale-description": "The Vale do Ribeira, located in the interior of SP/Brazil and composed of 22 municipalities, is a predominantly <em>rural</em> region. Applying the equivalence that 2.8% of the population is autistic (CDC), it is possible to calculate that there are more than <em>300 children</em> between the ages of 0 and 9 with the disorder in the region. Our goal is to make the pre-diagnosis of ASD more <em>accessible</em> for children in rural areas and with low socioeconomic status, such as in the Vale do Ribeira.",
+
+    "future-title": "WANT TO HELP <em class='emphasis_pink'>SOFIA</em> IN THIS MISSION?",
+    "future-description": "Although we are an academic project aimed at studying and developing a solution, we are very proud of our results! Our next steps consist of improving the SOFIA AI with a computer vision model to analyze stereotypies and adding new screening protocols to cover other age groups, continuing our focus on the pre-diagnosis of childhood ASD.",
+
+    "check-bibliography": "Check out our bibliography",
+    "bibliography-title": "BIBLIOGRAPHY",
+    "bib-1": "GUTHRIE, W. et al. Accuracy of autism screening in a large pediatric network. <br>Pediatrics, American Academy of Pediatrics, v. 144, n. 4, 2019.",
+    "bib-2": "ROBINS, D. L. et al. A machine learning strategy for autism screening in toddlers. <br>Journal of developmental and behavioral pediatrics: JDBP, NIH Public Access, v. 40,n. 5, p. 369, 2019.",
+    "bib-3": "MEGERIAN, J.T. et al. Evaluation of an artificial intelligence-based medical device for diagnosis of autism spectrum disorder. npj Digit. Med. 5, 57 (2022). <a href='https://doi.org/10.1038/s41746-022-00598-6'>https://doi.org/10.1038/s41746-022-00598-6</a>. Acesso em: 09 de set.  de 2023. <br>DSM-5. MANUAL DIAGNÓSTICO E ESTATÍSTICO DE TRANSTORNOS MENTAIS, 5a EDIÇÃO. 2014. Disponível em: ⟨<a href='https://www.institutopebioetica.com. br/documentos/manual-diagnostico-e-estatistico-de-transtornos-mentais-dsm-5.pdf'>https://www.institutopebioetica.com. br/documentos/manual-diagnostico-e-estatistico-de-transtornos-mentais-dsm-5.pdf</a>⟩. Acesso em: 12 de set. de 2023.",
+    "bib-4": "CDC. Screening and Diagnosis of Autism Spectrum Disorder for Healthcare Providers. 2022. Disponível em: ⟨<a href='https://www.cdc.gov/ncbddd/autism/hcp-screening.html'>https://www.cdc.gov/ncbddd/autism/hcp-screening.html</a>⟩. Acesso em: 26 de set. de 2023.",
+    "bib-5": "ONU. Agenda 2030 para o Desenvolvimento Sustentável. 2015. Disponível em: ⟨<a href='https://brasil.un.org/pt-br/91863-agenda-2030-para-o-desenvolvimento-sustent%C3%A1vel'>https://brasil.un.org/pt-br/91863-agenda-2030-para-o-desenvolvimento-sustent%C3%A1vel</a>⟩. Acesso em: 18 de set. de 2023."
 }

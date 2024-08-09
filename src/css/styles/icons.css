@@ -1,0 +1,12 @@
+.icon{
+    width: 60px;
+    height: 60px;
+}
+
+.arrow{
+    background: url(../../assets/imgs/arrow.svg) center / contain no-repeat;
+}
+
+.star{
+    background: url(../../assets/imgs/star.svg) center / contain no-repeat;
+}

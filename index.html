@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="src/css/styles.css">
     <title>Sofia</title>
 </head>
-<body>
+<body class="wrapper">
     <header>
         <nav id="navbar">
             <img class="logo" src="./src/assets/imgs/logo.png" alt="logo">
@@ -36,7 +36,7 @@
             </ul>
         </nav>
 
-        <section class="head">
+        <section class="head" id="asd">
             <img src="./src/assets/imgs/sorrident_star.png" class="head_star" alt="sorrident star">
             <div class="head_text-box">
                 <h1 class="header-title" data-i18n="header-title">Hello, I’m Sofia!</h1>
@@ -49,7 +49,100 @@
             <img src="./src/assets/imgs/sofia_cloud.png" class="head_sofia" alt="sofia_cloud">
         </section>
     </header>
+    <main>
+        <section id="about">
+            <h2 class="title" data-i18n="about-title">ABOUT US</h2>
+            <p class="description" data-i18n="about-description">We are the AJA Group, consisting of Aline, Junior, and Amanda, students from Fatec Registro. Our goal is to contribute to SDG 3 – 'Good Health and Well-being.' With the rising rates of autism spectrum disorders, we decided to focus our studies on developing an innovative solution for this challenge during the Multiplatform Software Development course.</p>
+        </section>
 
+        <section id="proposal">
+            <h2 class="title" data-i18n="proposal-title">HOW IT WORKS</h2>
+
+            <div class="row space-between w-100 center">
+                <div class="card">
+                    <figure class="card-fig col">
+                        <img src="./src/assets/imgs/identification.png" class="card-img" alt="identification">
+                    </figure>
+                    <h3 class="card-title" data-i18n="identification-title">Identification of ASD Signs</h3>
+                    <p class="card-description" data-i18n="identification-description">It all starts with parents or guardians identifying the signs of ASD in the child. Then, they seek out a healthcare specialist.</p>
+                </div>
+
+                <span class="icon arrow"></span>
+                
+                <div class="card">
+                    <figure class="card-fig col">
+                        <img src="./src/assets/imgs/importance.png" class="card-img" alt="importance">
+                    </figure>
+                    <h3 class="card-title" data-i18n="importance-title">The Importance of Professional Evaluation</h3>
+                    <p class="card-description" data-i18n="importance-description">A qualified healthcare professional will use SOFIA to assist in the pre-diagnosis, ensuring greater effectiveness and accessibility.</p>
+                </div>
+
+                <span class="icon arrow"></span>
+                
+                <div class="card">
+                    <figure class="card-fig col">
+                        <img src="./src/assets/imgs/innovation.png" class="card-img" alt="innovation">
+                    </figure>
+                    <h3 class="card-title" data-i18n="innovation-title">Innovation with Artificial Intelligence</h3>
+                    <p class="card-description" data-i18n="innovation-description">Our app uses AI to analyze the completion of screening protocols and the child's demographic data to provide the result.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="research">
+            <section class="our-data col">
+                <h2 class="title" data-i18n="research-title">OUR DATA</h2>
+                <div class="row center">
+                    <div class="col w-50 self-center border">
+                        <div class="row w-90 border">
+                            <span class="icon star"></span>
+                            <p class="research-item" data-i18n="research-item1">More than <em>60%</em> of children are diagnosed after the <em>age of 4</em>.</p>
+                        </div>
+                        <div class="row">
+                            <span class="icon star"></span>
+                            <p class="research-item" data-i18n="research-item2"><em>37%</em> of these children see more than 5 <em>doctors</em> before getting a final diagnosis.</p>
+                        </div>
+                        <div class="row">
+                            <span class="icon star"></span>
+                            <p class="research-item" data-i18n="research-item3">The main signs of ASD are <em>stereotypies</em> and <em>communication</em> disorders.</p>
+                        </div>
+                    </div>
+                    <div class="col w-50">
+                        <img src="./src/assets/imgs/stars_cloud.png" class="research-img" alt="stars_cloud">
+                    </div>
+                </div>
+                <div class="row center">
+                    <div class="col w-50">
+                        <img src="./src/assets/imgs/sofia_math.png" class="research-img" alt="sofia_math">
+                    </div>
+                    <div class="col w-50 self-center">
+                        <div class="row">
+                            <span class="icon star"></span>
+                            <p class="research-item" data-i18n="research-item1">More than <em>60%</em> of children are diagnosed after the <em>age of 4</em>.</p>
+                        </div>
+                        <div class="row">
+                            <span class="icon star"></span>
+                            <p class="research-item" data-i18n="research-item2"><em>37%</em> of these children see more than 5 <em>doctors</em> before getting a final diagnosis.</p>
+                        </div>
+                        <div class="row">
+                            <span class="icon star"></span>
+                            <p class="research-item" data-i18n="research-item3">The main signs of ASD are <em>stereotypies</em> and <em>communication</em> disorders.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="the-vale">
+
+            </section>
+        </section>
+
+        <section id="future"></section>
+
+        <section id="bibliography"></section>
+    </main>
+    <footer>
+        <span class="clickable-text" data-i18n="check-bibliography">Check out our bibliography</span>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="src/js/scripts.min.js"></script>

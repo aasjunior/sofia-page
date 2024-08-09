@@ -1,0 +1,75 @@
+section:is(#about) .description{
+    text-align: end;
+    max-width: 752px;
+    align-self: self-end;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 76px;
+}
+
+.card-fig{
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.card-img{
+    max-height: 400px;
+    width: fit-content;
+}
+
+.card-title, .card-description{
+    text-align: center;
+    color: var(--soft-yellow);
+    margin-bottom: 14px;
+}
+
+.card-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.card-description{
+    max-width: 396px;
+}
+
+#research{
+    background: linear-gradient(to bottom, var(--soft-purple) 50%, var(--lilas) 50%);
+}
+
+.our-data{
+    background-image: url(../../assets/imgs/bg_research-elipse.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    
+    padding: var(--padding-y) var(--padding-x);
+}
+
+.the-vale{
+    background-color: var(--lilas);
+    height: 500px;
+    
+    padding: var(--padding-y) var(--padding-x) 0;
+}
+
+:is(.our-data) .title{
+    color: var(--pink-star);
+    align-self: flex-start;
+}
+
+.research-item{
+    color: var(--soft-purple);
+    align-self: flex-start;
+    font-size: 24px;
+    max-width: 549px;
+    margin: 5px 20px 25px;
+}
+
+.research-img{
+    max-width: 450px;
+    align-self: center;
+}

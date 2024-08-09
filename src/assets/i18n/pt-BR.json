@@ -1,4 +1,6 @@
 {
+    "pt-BR": "Português-BR",
+    "en-US": "Inglês",
     "home": "Home",
     "asd": "Autismo",
     "proposal": "Proposta",
@@ -10,5 +12,40 @@
     "header-description": "Você sabia que é possível diagnosticar o Transtorno do Espectro Autista (TEA) aos 18 meses de vida? Ainda assim, a média de idade que a criança recebe o diagnóstico é acima dos 4 anos, e é ainda mais tardia para crianças pretas, de baixa renda e de áreas rurais.",
 
     "learn-more": "Saíba mais",
-    "watch-pitch": "Ver pitch"
+    "watch-pitch": "Ver pitch",
+
+    "about-title": "SOBRE NÓS",
+    "about-description": "Somos o Grupo AJA, composto por Aline, Junior e Amanda, estudantes da Fatec Registro. Nosso objetivo é contribuir com a ODS 3 – \"Saúde e Bem-Estar\". Com os crescentes índices de transtornos do espectro autista, decidimos focar nossos estudos em desenvolver uma solução inovadora para esse desafio durante o curso de Desenvolvimento de Software Multiplataforma.",
+
+    "proposal-title": "COMO <br> FUNCIONA",
+    "identification-title": "Identificação dos <br> sinais de TEA",
+    "identification-description": "Tudo começa com a identificação dos sinais do TEA na criança pelos pais ou responsáveis. Então, eles procuram um especialista da saúde.",
+
+    "importance-title": "A Importância da <br> Avaliação Profissional",
+    "importance-description": "Um profissional da saúde qualificado utilizará SOFIA para auxiliar o pré diagnóstico, garantindo maior eficácia e acessibilidade.",
+
+    "innovation-title": "Inovação com <br> Inteligência Artificial",
+    "innovation-description": "Nosso app utiliza IA para analisar o preenchimento dos protocolos de triagem e dados demográficos da criança para fornecer o resultado.",
+
+    "research-title": "NOSSOS DADOS",
+    "research-item1": "Mais de <em>60%</em> das crianças são diagnosticadas após os <em>4 anos</em> de idade",
+    "research-item2": "Sendo que <em>37%</em> dessas crianças consultam com mais de <em>5 médicos</em> para obter o diagnóstico final",
+    "research-item3": "Os principais sinais de TEA são as <em>esteriotipias</em> e os distúrbios de <em>comunicação</em>.",
+    "research-item4": "<em>Nenhum dos médicos</em> entrevistados usavam algum software para auxiliar o diagnóstico",
+    "research-item5": "Mas todos os especialistas da saúde <em>conheciam</em> algumas ferramentas virtuais",
+    "research-item6": "<em>100%</em> dos entrevistados utilizavam o <em>celular</em> pessoal para auxiliar nas consultas",
+
+    "the-vale": "O VALE DO RIBEIRA",
+    "vale-description": "O Vale do Ribeira, localizado no interior de SP/Brasil e composto por 22 municípios, é uma região predominantemente <em>rural</em>. Aplicando a equivalência de que 2,8% da população é autista (CDC), é possível calcular que há <em>mais de 300 crianças<em> entre 0 e 9 anos com o transtorno na região. Nosso objetivo é tornar o pré-diagnóstico de TEA mais acessível para crianças de áreas rurais e com baixo índice socioeconômico, como no Vale do Ribeira.",
+
+    "future-title": "QUER AJUDAR <em class='emphasis_pink'>SOFIA</em> NESSA MISSÃO?",
+    "future-description": "Apesar de sermos um projeto acadêmico com intuito de estudar e desenvolver uma solução, estamos muito orgulhosos dos nossos resultados! Nossos próximos passos consistem em aprimorar a IA SOFIA com um modelo de visão computacional para analisar as esteriotipias e adicionar novos protocolos de triagem para abranger outras faixas etárias, continuando com o foco no pré-diagnóstico do TEA infantil.",
+
+    "check-bibliography": "Confira nossas fontes bibliográficas.",
+    "bibliography-title": "FONTES",
+    "bib-1": "GUTHRIE, W. et al. Accuracy of autism screening in a large pediatric network. <br>Pediatrics, American Academy of Pediatrics, v. 144, n. 4, 2019.",
+    "bib-2": "ROBINS, D. L. et al. A machine learning strategy for autism screening in toddlers. <br>Journal of developmental and behavioral pediatrics: JDBP, NIH Public Access, v. 40,n. 5, p. 369, 2019.",
+    "bib-3": "MEGERIAN, J.T. et al. Evaluation of an artificial intelligence-based medical device for diagnosis of autism spectrum disorder. npj Digit. Med. 5, 57 (2022). <a href='https://doi.org/10.1038/s41746-022-00598-6'>https://doi.org/10.1038/s41746-022-00598-6</a>. Acesso em: 09 de set.  de 2023. <br>DSM-5. MANUAL DIAGNÓSTICO E ESTATÍSTICO DE TRANSTORNOS MENTAIS, 5a EDIÇÃO. 2014. Disponível em: ⟨<a href='https://www.institutopebioetica.com. br/documentos/manual-diagnostico-e-estatistico-de-transtornos-mentais-dsm-5.pdf'>https://www.institutopebioetica.com. br/documentos/manual-diagnostico-e-estatistico-de-transtornos-mentais-dsm-5.pdf</a>⟩. Acesso em: 12 de set. de 2023.",
+    "bib-4": "CDC. Screening and Diagnosis of Autism Spectrum Disorder for Healthcare Providers. 2022. Disponível em: ⟨<a href='https://www.cdc.gov/ncbddd/autism/hcp-screening.html'>https://www.cdc.gov/ncbddd/autism/hcp-screening.html</a>⟩. Acesso em: 26 de set. de 2023.",
+    "bib-5": "ONU. Agenda 2030 para o Desenvolvimento Sustentável. 2015. Disponível em: ⟨<a href='https://brasil.un.org/pt-br/91863-agenda-2030-para-o-desenvolvimento-sustent%C3%A1vel'>https://brasil.un.org/pt-br/91863-agenda-2030-para-o-desenvolvimento-sustent%C3%A1vel</a>⟩. Acesso em: 18 de set. de 2023."
 }

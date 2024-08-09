@@ -1,10 +1,11 @@
 header{
+    position: relative;
     width: 100%;
     padding: 28px 8%;
     background-image: url(../../assets/imgs/bg_header-elipse.png);
     background-repeat: no-repeat;
-    background-size: cover; /* ou 'auto' */
-    background-position: center bottom; /* ou 'center' */
+    background-size: cover;
+    background-position: center bottom;
 }
 
 #navbar{
@@ -81,12 +82,14 @@ header{
 
 .head_star{
     top: 150px;
-    left: 100px;
+    left: 80px;
+    width: clamp(280px, 25.6% ,387px);
 }
 
 .head_sofia{
     top: 100px;
     right: -220px;
+    width: clamp(500px, 55% ,828px);
 }
 
 .head-btns{
