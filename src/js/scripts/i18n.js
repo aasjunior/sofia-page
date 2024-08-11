@@ -27,7 +27,7 @@ function loadTranslations(language) {
         });
 }
 
-$('#language-selection').on('change', function() {
+$('.language-selection').on('change', function() {
     var selectedLanguage = $(this).val();
     loadTranslations(selectedLanguage);
 });

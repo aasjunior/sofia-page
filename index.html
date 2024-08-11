@@ -20,7 +20,7 @@
                 <li class="nav-item"><a href="#research" class="nav-link" data-i18n="research">Research</a></li>
                 <li class="nav-item"><a href="#future" class="nav-link" data-i18n="future">Future</a></li>
             </ul>
-            <select name="i18n" id="language-selection">
+            <select name="i18n" class="language-selection">
                 <option value="pt-BR" data-i18n="pt-BR">Portuguese-BR</option>
                 <option value="en-US" data-i18n="en-US">English</option>
             </select>
@@ -37,11 +37,16 @@
                 <li class="nav-item"><a href="#research" class="nav-link" data-i18n="research">Research</a></li>
                 <li class="nav-item"><a href="#about" class="nav-link" data-i18n="about">About us</a></li>
                 <li class="nav-item"><a href="#future" class="nav-link" data-i18n="future">Future</a></li>
+                <select name="i18n" class="language-selection">
+                    <option value="pt-BR" data-i18n="pt-BR">Portuguese-BR</option>
+                    <option value="en-US" data-i18n="en-US">English</option>
+                </select>
             </ul>
         </nav>
 
         <section class="head" id="asd">
             <img src="./src/assets/imgs/sorrident_star.png" class="head_star" alt="sorrident star">
+            <div class="head_mobile"></div>
             <div class="head_text-box">
                 <h1 class="header-title" data-i18n="header-title">Hello, I’m Sofia!</h1>
                 <p class="header-description" data-i18n="header-description">Did you know that it’s possible to diagnose Autism Spectrum Disorder (ASD) as early as 18 months of age? However, the average age at which children receive a diagnosis is above 4 years old, and it’s even later for Black children, those from low-income families, and those in rural areas.</p>
@@ -100,7 +105,7 @@
         <section id="research">
             <div class="our-data col">
                 <h2 class="title" data-i18n="research-title">OUR DATA</h2>
-                <div class="row center mb-50">
+                <div class="row center mb-60">
                     <div class="col w-50 self-center pl-40">
                         <div class="row w-90">
                             <span class="icon star"></span>
@@ -180,7 +185,7 @@
     </main>
     <footer>
         <img src="./src/assets/imgs/logo.png" alt="logo">
-        <span id="check-bibliography" class="clickable-text" data-i18n="check-bibliography">Check out our bibliography</span>
+        <a id="check-bibliography" href="#bibliography" class="clickable-text" data-i18n="check-bibliography">Check out our bibliography</a>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

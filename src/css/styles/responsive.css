@@ -11,16 +11,10 @@
     
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1440px) {
     .head_star{
         top: 150px;
         left: -10px;
-    }
-    
-    .head_sofia{
-        top: 210px;
-        right: -140px;
-        width: 600px;
     }
 
     .header-title{
@@ -37,23 +31,43 @@
     
 }
 
-@media screen and (max-width: 768px) {
-    #nav-list{
+@media screen and (max-width: 1390px) {
+    #nav-list, :is(#navbar) .language-selection{
         display: none;
     }
+
     
     #mobile_btn{
+        z-index: 9999;
+        position: fixed;
         display: block;
+        top: 14px;
+        right: 10px;
         border: none;
-        background-color: transparent;
+        background-color: var(--soft-yellow);
         font-size: 1.5rem;
         cursor: pointer;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+    }
+
+    :is(#mobile_menu) .language-selection{
+        top: 20px;
+        margin-right: 40px;
     }
 
     #mobile_menu.active{
+        z-index: 9998;
+        top: 0;
+        width: 100%;
+        position: fixed;
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-self: center;
+        background-color: var(--soft-yellow);
     }
 
     #mobile_nav-list{
@@ -61,6 +75,38 @@
         flex-direction: column;
         align-items: center;
         gap: 12px;
-        margin: 12px 0px;
+        margin: 30px 0px;
+        transition: display 0.3s ease;
+    }
+
+    .head_text-box{
+        width: 640px;
+    }
+
+    .head_star{
+        width: 280px;
+    }
+    
+    .head_sofia{
+        width: 600px;
+        right: -280px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .head{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .head_mobile{
+        display: block;
+    }
+
+    .head_star, .head_sofia{
+        display: none;
+    }
+
+    .head_text-box{
+        width: 80%;
     }
 }

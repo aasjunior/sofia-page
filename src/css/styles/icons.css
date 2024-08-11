@@ -11,6 +11,12 @@
     background: url(../../assets/imgs/star.svg) center / contain no-repeat;
 }
 
+.fa-solid.fa-bars, .fa-solid.fa-x{
+    color: var(--soft-purple);
+    width: 30px;
+    font-size: 28px;
+}
+
 .little-girl{
     width: 18%;
     background: url(../../assets/imgs/little_girl.png) center / contain no-repeat;
@@ -28,10 +34,12 @@
 
 .bg-clouds{
     position: relative;
-    bottom: -47px;
-    min-height: 520px;
-    width: 100%;
-    background: url(../../assets/imgs/clouds.png) center / contain no-repeat;
+    bottom: -49px;
+    left: -95px;
+    min-height: 600px;
+    max-width: 1920px;
+    width: 100vw;
+    background: url(../../assets/imgs/clouds.png) center / 100% no-repeat;
 }
 
 .cloud-left{
@@ -42,5 +50,12 @@
     min-width: 502px;
     width: 50%;
     height: auto;
-    background: url(../../assets/imgs/cloud.png  ) center / contain no-repeat;
+    background: url(../../assets/imgs/cloud.png) center / contain no-repeat;
+}
+
+.head_mobile{
+    display: none;
+    width: 650px;
+    height: 500px;
+    background: url(../../assets/imgs/head_mobile.png) center / contain no-repeat;
 }
