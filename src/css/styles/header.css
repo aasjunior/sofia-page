@@ -30,7 +30,7 @@ header{
 
 .logo{
     position: absolute;
-    margin-left: 90px;
+    margin-left: 60px;
 }
 
 #nav-list{
@@ -42,7 +42,7 @@ header{
     justify-content: space-between;
     list-style: none;
     margin: auto;
-    padding: 20px 40px;
+    padding: 20px 30px;
     border-radius: 50px;
 }
 

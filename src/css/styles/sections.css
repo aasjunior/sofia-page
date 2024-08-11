@@ -1,7 +1,11 @@
 section:is(#about) .description{
     text-align: end;
     max-width: 752px;
-    align-self: self-end;
+}
+
+:is(#about) .row{
+    width: 100%;
+    justify-content: space-between;
 }
 
 .card{

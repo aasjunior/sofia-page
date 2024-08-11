@@ -33,3 +33,14 @@
     width: 100%;
     background: url(../../assets/imgs/clouds.png) center / contain no-repeat;
 }
+
+.cloud-left{
+    position: relative;
+    top: -40px;
+    left: -320px;
+    min-height: 300px;
+    min-width: 502px;
+    width: 50%;
+    height: auto;
+    background: url(../../assets/imgs/cloud.png  ) center / contain no-repeat;
+}
