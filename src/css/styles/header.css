@@ -1,7 +1,7 @@
 header{
     position: relative;
     width: 100%;
-    padding: 28px 8%;
+    padding: 20px 8% 28px;
     background-image: url(../../assets/imgs/bg_header-elipse.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,6 +19,8 @@ header{
 }
 
 #navbar{
+    z-index: 9999;
+    position: fixed;
     max-width: 1920px;
     width: 100%;
     display: flex;
@@ -33,13 +35,15 @@ header{
 
 #nav-list{
     position: relative;
+    background-color: #FFE29ECC;
     display: flex;
-    width: clamp(725px, 800px, 825px);
-    min-width: 725px;
+    width: clamp(800px, 825px);
+    min-width: 800px;
     justify-content: space-between;
     list-style: none;
     margin: auto;
-    padding: 20px;
+    padding: 20px 40px;
+    border-radius: 50px;
 }
 
 .nav-link{
@@ -51,6 +55,10 @@ header{
 
 .nav-link:hover{
     border-bottom: 3px solid var(--pink-star);
+}
+
+.nav-item{
+    padding: 0 20px;
 }
 
 .nav-item.active .nav-link{
@@ -67,7 +75,7 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 140px;
+    margin-top: 180px;
 }
 
 .head_text-box{
@@ -99,7 +107,7 @@ header{
 }
 
 .head_sofia{
-    top: 100px;
+    top: 50px;
     right: -220px;
     width: clamp(500px, 55% ,828px);
 }
