@@ -222,12 +222,58 @@
         order: -1;
     }
 
+    .description{
+        font-size: 16px;
+    }
+
+    .card-title{
+        font-size: 20px;
+    }
+
+    #bibliography{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .bib{
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    :is(#bibliography) .title{
+        font-size: 32px;
+        margin: 10px;
+    }
+
+    :is(.bib) a{
+        font-size: 14px;
+    }
+
+    .research-item, em{
+        font-size: 16px;
+    }
+
+    .icon.star{
+        width: 40px;
+        height: 40px;
+    }
+
 }
 
 @media screen and (max-width: 768px){
     /* body, section{
         max-width: 768px !important; 
     } */
+
+    #mobile_btn{
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     .research-img{
         width: 300px;
@@ -243,7 +289,7 @@
         position: sticky;
     }
     .head_mobile{
-        max-height: 400px;
+        max-height: 250px;
         width: 100%;
         background-size: 100%;
     }
@@ -261,5 +307,9 @@
     .language-selection{
         position: relative;
         left: 20px;
+    }
+
+    .fa-solid.fa-bars, .fa-solid.fa-x{
+        font-size: 20px;
     }
 }
