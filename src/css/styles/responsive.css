@@ -94,12 +94,16 @@
 }
 
 @media screen and (max-width: 1100px){
+    body, section{
+        max-width: 100% !important;
+    }
     .head{
         flex-direction: column;
-        margin-top: 40px;
+
     }
     .head_mobile{
         display: block;
+        margin-top: 40px;
     }
 
     .head_star, .head_sofia{
@@ -108,5 +112,154 @@
 
     .head_text-box{
         width: 80%;
+    }
+
+    .title, .header-title, :is(#future) em{
+        font-size: 48px;
+    }
+
+    :is(#about) .row.center{
+        flex-direction: column;
+    }
+
+    :is(#about) .description{
+        order: -1;
+    }
+
+    .cloud-left{
+        margin-top: 60px;
+    }
+
+    :is(#proposal) .row{
+        flex-direction: column;
+    }
+
+    :is(#proposal) .arrow{
+        transform: rotate(90deg);
+    }
+
+    .card{
+        margin: 40px;
+    }
+
+    .our-data{
+        padding: 40px 20px;
+    }
+
+    :is(.our-data) .row.center.mb-60, .row.center{
+        flex-direction: column;
+    }
+
+    #stars_cloud{
+        order: -1;
+    }
+
+    .research-img{
+        margin-bottom: 60px;
+        width: 500px;
+    }
+
+    .research-item{
+        width: 80%;
+    }
+
+    :is(#research) .col.w-50{
+        padding-left: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    .the-vale{
+        padding: 40px;
+    }
+
+    :is(.the-vale) .row:first-child{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    :is(.the-vale) .description{
+        max-width: 100%;
+        margin-top: 60px;
+    }
+
+    .bg-clouds{
+        left: -50px;
+        min-height: clamp(120px, 300px, 500px);
+        background-size: cover;
+        justify-content: space-around;
+    }
+
+    .little-girl{
+        display: none;
+    }
+    
+    .little-boy, .sofia-butterfly{
+        width: 260px;
+    }
+
+    .head-btns{
+        display: flex;
+        padding: 65px 10px;
+        justify-content: center;
+    }
+
+    #future{
+        padding: 20px;
+    }
+    .pitch{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 40px;
+    }
+
+    :is(#future) .row.space-around{
+        flex-direction: column;
+    }
+
+    :is(#future) .title{
+        order: -1;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    /* body, section{
+        max-width: 768px !important; 
+    } */
+
+    .research-img{
+        width: 300px;
+    }
+
+    .head{
+        margin-top: 80px;
+    }
+
+    .logo{
+        margin-left: 10px;
+        width: 80px;
+        position: sticky;
+    }
+    .head_mobile{
+        max-height: 400px;
+        width: 100%;
+        background-size: 100%;
+    }
+
+    .the-vale{
+        overflow: hidden;
+    }
+
+    .bg-clouds{
+        left: -50px;
+        height: 300px;
+        background-size: cover;
+    }
+
+    .language-selection{
+        position: relative;
+        left: 20px;
     }
 }

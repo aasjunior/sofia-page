@@ -59,3 +59,14 @@
     height: 500px;
     background: url(../../assets/imgs/head_mobile.png) center / contain no-repeat;
 }
+
+.little-girl_circle{
+    height: 300px;
+    width: 280px;
+    background: url(../../assets/imgs/little_girl_circle.png) center / contain no-repeat;
+}
+
+.sofia-butterfly_mobile{
+    display: none;
+    width: 100vw;
+}
