@@ -245,7 +245,7 @@
 
     :is(#bibliography) .title{
         font-size: 32px;
-        margin: 10px;
+        margin: 10px 0;
     }
 
     :is(.bib) a{
