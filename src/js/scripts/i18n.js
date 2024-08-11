@@ -26,3 +26,8 @@ function loadTranslations(language) {
             console.error('Erro ao carregar as traduções:', textStatus, errorThrown);
         });
 }
+
+$('#language-selection').on('change', function() {
+    var selectedLanguage = $(this).val();
+    loadTranslations(selectedLanguage);
+});

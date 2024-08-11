@@ -19,14 +19,16 @@ header{
 }
 
 #navbar{
+    max-width: 1920px;
     width: 100%;
     display: flex;
     vertical-align: middle;
+    align-self: center;
 }
 
 .logo{
     position: absolute;
-    margin-top: 5px;
+    margin-left: 90px;
 }
 
 #nav-list{
@@ -110,4 +112,18 @@ header{
 
 :is(.head-btns) .btn-primary{
     margin-right: 20px;
+}
+
+#language-selection{
+    position: absolute;
+    right: 20px;
+    align-self: center;
+    height: 40px;
+    border: none;
+    background-color: #FFD778;
+    color: #A68946;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
 }
