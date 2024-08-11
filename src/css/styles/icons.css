@@ -61,6 +61,7 @@
 }
 
 .little-girl_circle{
+    display: none;
     height: 300px;
     width: 280px;
     background: url(../../assets/imgs/little_girl_circle.png) center / contain no-repeat;
