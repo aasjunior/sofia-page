@@ -1,4 +1,4 @@
-$('.nav-item').click(function() {
+$('.nav-item').click(() => {
     $('.nav-item').removeClass('active');
     $(this).addClass('active');
     checkActiveNavItem();
@@ -26,3 +26,7 @@ function checkActiveNavItem() {
         }
     });
 }
+
+$('#check-bibliography').click(() => {
+    $('#bibliography').css('display', 'block');
+});

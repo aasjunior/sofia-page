@@ -122,3 +122,27 @@ section:is(#about) .description{
     min-width: 50%;
     height: 480px;
 }
+
+#bibliography{
+    display: none;
+    padding: 100px var(--padding-x);
+    align-items: center;
+    background-color: var(--soft-yellow);
+}
+
+:is(#bibliography) .title, .bib, a{
+    color: var(--soft-purple);
+}
+
+.bib{
+    padding: 15px;
+}
+
+:is(.bib) a{
+    border-bottom: 1px solid var(--soft-purple);
+}
+
+:is(.bib) a:hover{
+    color: var(--brillant-purple);
+    border-bottom: 1px solid var(--brillant-purple);
+}
