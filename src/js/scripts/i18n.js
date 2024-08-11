@@ -3,7 +3,7 @@ var languageCode = userLanguage.toLowerCase();
 
 // console.log(languageCode)
 
-loadTranslations(languageCode);
+loadTranslations('pt-BR');
 
 function loadTranslations(language) {
     $.getJSON('./src/assets/i18n/' + language + '.json')
