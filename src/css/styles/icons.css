@@ -10,3 +10,26 @@
 .star{
     background: url(../../assets/imgs/star.svg) center / contain no-repeat;
 }
+
+.little-girl{
+    width: 18%;
+    background: url(../../assets/imgs/little_girl.png) center / contain no-repeat;
+}
+
+.little-boy{
+    width: 22%;
+    background: url(../../assets/imgs/little_boy.png) center / contain no-repeat;
+}
+
+.sofia-butterfly{
+    width: 22%;
+    background: url(../../assets/imgs/sofia_butterfly.png) center / contain no-repeat;
+}
+
+.bg-clouds{
+    position: relative;
+    bottom: -47px;
+    min-height: 520px;
+    width: 100%;
+    background: url(../../assets/imgs/clouds.png) center / contain no-repeat;
+}

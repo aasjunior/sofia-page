@@ -36,6 +36,9 @@ section:is(#about) .description{
     max-width: 396px;
 }
 
+
+/*RESEARCH*/
+
 #research{
     background: linear-gradient(to bottom, var(--soft-purple) 50%, var(--lilas) 50%);
 }
@@ -47,13 +50,6 @@ section:is(#about) .description{
     background-position: center;
     
     padding: var(--padding-y) var(--padding-x);
-}
-
-.the-vale{
-    background-color: var(--lilas);
-    height: 500px;
-    
-    padding: var(--padding-y) var(--padding-x) 0;
 }
 
 :is(.our-data) .title{
@@ -72,4 +68,57 @@ section:is(#about) .description{
 .research-img{
     max-width: 450px;
     align-self: center;
+}
+
+
+.the-vale{
+    background-color: var(--lilas);
+    /* top right bottom left*/
+    padding: 90px 95px 0 95px;
+}
+
+:is(.the-vale) .title, .description{
+    margin: 0;
+}
+
+:is(.the-vale) .title{
+    color: var(--soft-purple);
+    min-width: 40%;
+    text-align: start;
+    margin-top: -20px;
+}
+
+:is(.the-vale) .description{
+    text-align: end;
+    max-width: 50%;
+    color: var(--soft-purple);
+}
+
+:is(.the-vale) .row{
+    justify-content: space-evenly;
+}
+
+/* future */
+#future{
+    padding: 40px var(--padding-x);
+}
+
+:is(#future) .title{
+    max-width: 500px;
+    text-align: start;
+    line-height: 1.1;
+}
+
+
+:is(#future) em{
+    font-size: var(--fs-header-title);
+    font-family: 'Sigmar One', sans-serif;
+    font-weight: normal;
+    color: var(--pink-star);
+}
+
+.pitch{
+    align-self: center;
+    min-width: 50%;
+    height: 480px;
 }

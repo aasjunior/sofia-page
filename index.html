@@ -9,7 +9,7 @@
     <title>Sofia</title>
 </head>
 <body class="wrapper">
-    <header>
+    <header class="col">
         <nav id="navbar">
             <img class="logo" src="./src/assets/imgs/logo.png" alt="logo">
             <ul id="nav-list">
@@ -42,12 +42,13 @@
                 <h1 class="header-title" data-i18n="header-title">Hello, I’m Sofia!</h1>
                 <p class="header-description" data-i18n="header-description">Did you know that it’s possible to diagnose Autism Spectrum Disorder (ASD) as early as 18 months of age? However, the average age at which children receive a diagnosis is above 4 years old, and it’s even later for Black children, those from low-income families, and those in rural areas.</p>
                 <div class="head-btns">
-                    <a href="#asd" class="btn btn-primary" data-i18n="learn-more">Learn more</a>
+                    <a href="#about" class="btn btn-primary" data-i18n="learn-more">Learn more</a>
                     <a href="https://www.youtube.com/watch?v=wSeBx_eXvcY" class="btn btn-secondary" data-i18n="watch-pitch" target="_blank">Watch pitch</a>
                 </div>
             </div>
             <img src="./src/assets/imgs/sofia_cloud.png" class="head_sofia" alt="sofia_cloud">
         </section>
+        <a href="#about" class="icon arrow"></a>
     </header>
     <main>
         <section id="about">
@@ -92,9 +93,9 @@
         <section id="research">
             <section class="our-data col">
                 <h2 class="title" data-i18n="research-title">OUR DATA</h2>
-                <div class="row center">
-                    <div class="col w-50 self-center border">
-                        <div class="row w-90 border">
+                <div class="row center mb-50">
+                    <div class="col w-50 self-center pl-40">
+                        <div class="row w-90">
                             <span class="icon star"></span>
                             <p class="research-item" data-i18n="research-item1">More than <em>60%</em> of children are diagnosed after the <em>age of 4</em>.</p>
                         </div>
@@ -132,15 +133,36 @@
                 </div>
             </section>
             <section class="the-vale">
-
+                <div class="row">
+                    <h2 class="title" data-i18n="the-vale">THE VALE DO RIBEIRA</h2>
+                    <p class="description" data-i18n="vale-description">
+                        The Vale do Ribeira, located in the interior of SP/Brazil and composed of 22 municipalities, is a predominantly <em>rural</em> region. Applying the equivalence that 2.8% of the population is autistic (CDC), it is possible to calculate that there are more than <em>300 children</em> between the ages of 0 and 9 with the disorder in the region. Our goal is to make the pre-diagnosis of ASD more <em>accessible</em> for children in rural areas and with low socioeconomic status, such as in the Vale do Ribeira.
+                    </p>
+                </div>
+                <div class="row space-between bg-clouds">
+                    <span class="little-girl"></span>
+                    <span class="sofia-butterfly"></span>
+                    <span class="little-boy"></span>
+                </div>
             </section>
         </section>
 
-        <section id="future"></section>
+        <section id="future">
+            <div class="row space-around">
+                <iframe class="pitch" src="https://www.youtube.com/embed/wSeBx_eXvcY?si=y7fSBy5PRsKKEPWO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2 class="title" data-i18n="future-title">WANT TO HELP <em class='emphasis_pink'>SOFIA</em> IN THIS MISSION?</h2>
+            </div>
+            <div class="row">
+                <p class="description" data-i18n="future-description">
+                    Although we are an academic project aimed at studying and developing a solution, we are very proud of our results! Our next steps consist of improving the SOFIA AI with a computer vision model to analyze stereotypies and adding new screening protocols to cover other age groups, continuing our focus on the pre-diagnosis of childhood ASD.
+                </p>
+            </div>
+        </section>
 
         <section id="bibliography"></section>
     </main>
     <footer>
+        <img src="./src/assets/imgs/logo.png" alt="logo">
         <span class="clickable-text" data-i18n="check-bibliography">Check out our bibliography</span>
     </footer>
 

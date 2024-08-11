@@ -41,6 +41,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; /* CSS para rolagem suave */
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -67,9 +71,11 @@ header, section, main{
 footer{
     background-color: var(--purple);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0;
+    padding: 40px;
 }
 
 em{
@@ -173,4 +179,12 @@ section:is(#about, #proposal, #future) .title, .description{
 
 .border{
     border: 1px solid #000;
+}
+
+.pl-40{
+    padding-left: 40px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
 }

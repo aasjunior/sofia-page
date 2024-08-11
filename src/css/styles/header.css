@@ -8,6 +8,16 @@ header{
     background-position: center bottom;
 }
 
+:is(header) .icon.arrow{
+    position: absolute;
+    bottom: -40px;
+    width: 80px;
+    height: 80px;
+    align-self: center;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
 #navbar{
     width: 100%;
     display: flex;
