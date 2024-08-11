@@ -252,7 +252,7 @@
         font-size: 14px;
     }
 
-    .research-item, em{
+    .research-item, em, .nav-link, .language-selection{
         font-size: 16px;
     }
 
@@ -322,6 +322,7 @@
     .language-selection{
         position: relative;
         left: 20px;
+        font-size: 14px;
     }
 
     .fa-solid.fa-bars, .fa-solid.fa-x{
