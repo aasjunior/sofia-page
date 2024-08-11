@@ -111,7 +111,7 @@
     }
 
     .head_text-box{
-        width: 80%;
+        width: 100%;
     }
 
     .title, .header-title, :is(#future) em{
@@ -231,15 +231,16 @@
     }
 
     #bibliography{
-        display: flex;
         flex-direction: column;
         align-items: center;
         padding: 20px;
     }
 
     .bib{
-        max-width: 100%;
+        max-width: 75%;
         font-size: 14px;
+        padding: 0;
+        padding-bottom: 20px;
     }
 
     :is(#bibliography) .title{
@@ -266,6 +267,20 @@
     /* body, section{
         max-width: 768px !important; 
     } */
+
+    .card-img{
+        height: 250px;
+    }
+
+    .head-btns{
+        display: flex;
+        padding: 40px 5px;
+        justify-content: center;
+    }
+
+    .btn{
+        font-size: 16px;
+    }
 
     #mobile_btn{
         width: 35px;
@@ -311,5 +326,9 @@
 
     .fa-solid.fa-bars, .fa-solid.fa-x{
         font-size: 20px;
+    }
+
+    :is(.bib) .bib, a{
+        font-size: 12px;
     }
 }
