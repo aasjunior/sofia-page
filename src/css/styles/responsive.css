@@ -330,5 +330,12 @@
 
     :is(.bib) .bib, a{
         font-size: 12px;
+        word-wrap: break-word;
+    }
+
+    
+    .bib{
+        min-width: 320px;
+        max-width: 100%;
     }
 }
