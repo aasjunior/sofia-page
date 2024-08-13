@@ -135,7 +135,7 @@ section:is(#about, #proposal, #future) .title, .description{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: var(--padding-y) var(--padding-x) 0;
+    padding: 0 var(--padding-x);
 }
 
 .row{

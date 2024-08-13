@@ -130,6 +130,10 @@
         margin-top: 60px;
     }
 
+    .cloud-right{
+        display: block;
+    }
+
     :is(#proposal) .row{
         flex-direction: column;
     }
@@ -191,12 +195,13 @@
         justify-content: space-around;
     }
 
-    .little-girl{
+    .little-girl, .little-boy{
         display: none;
     }
     
-    .little-boy, .sofia-butterfly{
+    .sofia-butterfly{
         width: 260px;
+        margin: 0 auto;
     }
 
     .head-btns{
@@ -276,6 +281,19 @@
     /* body, section{
         max-width: 768px !important; 
     } */
+
+    
+    .cloud-left{
+        margin-top: 0;
+        left: -100px;
+        min-width: 260px;
+    }
+
+    .cloud-right{
+        top: 20px;
+        right: 40px;
+        min-width: 220px;
+    }
 
     .card-img{
         height: 250px;

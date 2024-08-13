@@ -10,6 +10,7 @@
 </head>
 <body class="wrapper">
     <header class="col">
+    
         <nav id="navbar">
             <img class="logo" src="./src/assets/imgs/logo.png" alt="logo">
             <ul id="nav-list">
@@ -63,7 +64,10 @@
         <section id="about">
             <h2 class="title" data-i18n="about-title">ABOUT US</h2>
             <div class="row center">
-                <span class="cloud-left"></span>
+                <div class="row">
+                    <span class="cloud-left"></span>
+                    <span class="cloud-right"></span>
+                </div>
                 <p class="description" data-i18n="about-description">We are the AJA Group, consisting of Aline, Junior, and Amanda, students from Fatec Registro. Our goal is to contribute to SDG 3 – 'Good Health and Well-being.' With the rising rates of autism spectrum disorders, we decided to focus our studies on developing an innovative solution for this challenge during the Multiplatform Software Development course.</p>
             </div>
         </section>
@@ -197,8 +201,11 @@
         </div>
     </div>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
+    <!-- <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script> -->
+    <script>
+        const widget = new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
