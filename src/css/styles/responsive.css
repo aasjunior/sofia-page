@@ -174,7 +174,7 @@
     }
 
     .the-vale{
-        padding: 40px;
+        padding: 40px 40px 0;
     }
 
     :is(.the-vale) .row:first-child{
@@ -190,9 +190,8 @@
 
     .bg-clouds{
         left: -50px;
-        min-height: clamp(120px, 300px, 500px);
+        min-height: 350px;
         background-size: cover;
-        justify-content: space-around;
     }
 
     .little-girl, .little-boy{
@@ -336,13 +335,10 @@
         background-size: 100%;
     }
 
-    .the-vale{
-        overflow: hidden;
-    }
-
     .bg-clouds{
-        left: -50px;
-        height: 300px;
+        position: relative;
+        margin-left:10px;
+        width: 100vw;
         background-size: cover;
     }
 

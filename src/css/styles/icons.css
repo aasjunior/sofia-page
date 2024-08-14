@@ -34,12 +34,12 @@
 
 .bg-clouds{
     position: relative;
-    bottom: -49px;
+    bottom: -50px;
     left: -95px;
     min-height: 600px;
     max-width: 1920px;
     width: 100vw;
-    background: url(../../assets/imgs/clouds.png) center / 100% no-repeat;
+    background: url(../../assets/imgs/clouds.png) center / cover no-repeat;
 }
 
 .cloud-left{
