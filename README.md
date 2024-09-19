@@ -6,12 +6,15 @@ Sofia é um Software Orientado por Inteligência Artificial para Auxílio ao Pr�
   <img src="https://github.com/aasjunior/com.sofia.mobile/assets/85968113/ce5ba98e-c63a-4fb7-a311-ced454084bc7" width="700" alt="ilustracao">
 </div>
 
-Ficou interessado? Veja mais no nosso pitch de apresentação da SOFIA, [assista aqui](https://www.youtube.com/watch?v=wSeBx_eXvcY) 💜
+<br>
+
+Ficou interessado? Acesse o nosso site com mais informações sobre o nosso projeto, [Site Sofia](https://sofia-aja.vercel.app/) 💜
 
 #### Nossos Projetos
 - <a href='https://github.com/aasjunior/com.sofia.mobile.git' target='_blank'>Sofia Mobile</a>
+- <a href='https://github.com/aasjunior/com.sofia.restapi' target='_blank'>Sofia Back-End</a>
+- <a href='https://github.com/mandis-ncs/api-flask' target='_blank'>Sofia Rede Neural MLP</a>
 - <a href='https://github.com/aasjunior/sofia_playground' target='_blank'>Sofia Playground</a>
-- <a href='https://sofia-aja.vercel.app/' target='_blank'>Site informativo</a>
 
 ## Nosso Time AJA 💜
 You can see more about us in our profile:
