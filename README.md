@@ -6,7 +6,7 @@ Sofia é um Software Orientado por Inteligência Artificial para Auxílio ao Pr�
   <img src="https://github.com/aasjunior/com.sofia.mobile/assets/85968113/ce5ba98e-c63a-4fb7-a311-ced454084bc7" width="700" alt="ilustracao">
 </div>
 
-Ficou interessado? Veja mais no nosso pitch de apresentação da SOFIA, [assista aqui](https://youtu.be/ArjSy3HSWuY) 💜
+Ficou interessado? Veja mais no nosso pitch de apresentação da SOFIA, [assista aqui](https://www.youtube.com/watch?v=wSeBx_eXvcY) 💜
 
 #### Nossos Projetos
 - <a href='https://github.com/aasjunior/com.sofia.mobile.git' target='_blank'>Sofia Mobile</a>
