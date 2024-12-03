@@ -6,9 +6,17 @@ Sofia é um Software Orientado por Inteligência Artificial para Auxílio ao Pr�
   <img src="https://github.com/aasjunior/com.sofia.mobile/assets/85968113/ce5ba98e-c63a-4fb7-a311-ced454084bc7" width="700" alt="ilustracao">
 </div>
 
-<br>
-
 Ficou interessado? Acesse o nosso site com mais informações sobre o nosso projeto, [Site Sofia](https://sofia-aja.vercel.app/) 💜
+
+#
+
+###### Publicação Qualis B2 - ISSN: 2446-7049
+
+Este projeto foi publicado na **Revista Tecnológica da Fatec Americana** - <a href='https://www.fatec.edu.br/revista/index.php/RTecFatecAM/article/view/388' target='_blank'>ISSN: 2446-7049</a>.
+
+###### FETEPS 2024
+
+Este projeto participou da **15ª Feira Tecnológica do Centro Paula Souza** - <a href='https://feteps.cpscetec.com.br/docs/2024_feteps_publicacao.pdf' target='_blank'>FETEPS</a>.
 
 #### Nossos Projetos
 - <a href='https://github.com/aasjunior/com.sofia.mobile.git' target='_blank'>Sofia Mobile</a>
