@@ -18,7 +18,14 @@ gulp.task('minify-js', () => {
 })
 
 gulp.task('minify-css', gulp.series('clean', () => {
-    return gulp.src(['./src/css/styles/*.css', '!./src/css/styles.min.css']) // Exclui styles.min.css
+    return gulp.src([
+            './src/css/styles/config.css',
+            './src/css/styles/icons.css',
+            './src/css/styles/header.css',
+            './src/css/styles/sections.css',
+            './src/css/styles/responsive.css',
+            '!./src/css/styles.min.css' // Exclui styles.min.css
+        ]) 
         .pipe(concat('styles.min.css'))
         .pipe(minifyCSS())
         .pipe(gulp.dest('./src/css'))
