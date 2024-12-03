@@ -5,6 +5,7 @@ Sofia é um Software Orientado por Inteligência Artificial para Auxílio ao Pr�
 <div align="center">
   <img src="https://github.com/aasjunior/com.sofia.mobile/assets/85968113/ce5ba98e-c63a-4fb7-a311-ced454084bc7" width="700" alt="ilustracao">
 </div>
+<br>
 
 Ficou interessado? Acesse o nosso site com mais informações sobre o nosso projeto, [Site Sofia](https://sofia-aja.vercel.app/) 💜
 
